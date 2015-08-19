@@ -1,0 +1,13 @@
+# the plus sign does funky stuff on Apache on Windows but is needed on Linux
+options +FollowSymLinks
+#options FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Linux sometimes needs the first one, while Windows needs the second one
+RewriteRule ^(.*)$ /index.php/?rt=$1 [L,QSA]
+# RewriteRule ^(.*)$ /index.php/?rt=$1 [END,QSA]
+

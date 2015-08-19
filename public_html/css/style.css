@@ -1,0 +1,313 @@
+
+.active-sidebar-link { color: brown; }
+
+html {
+    overflow-y: scroll;
+}
+
+/* all the layout stuff */
+#layout-container {
+    width: 980px;
+    margin: 0px auto;
+    background-color: #fff;
+    color: #333;
+    line-height: 130%;
+}
+
+#layout-top {
+    padding-bottom: 5px;
+    background-color: #fff;
+}
+
+#layout-top h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#layout-leftnav {
+    float: left;
+    width: 240px;
+    padding-right: 5px;
+    margin-bottom: 25px;
+}
+
+#layout-content {
+    float: right;
+    width: 735px;
+}
+
+#layout-bottom {
+    clear: both;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+#layout-leftnav p {
+    margin: 0 0 1em 0;
+}
+
+#layout-content h2 {
+    margin: 0 0 .5em 0;
+}
+
+#textarea {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.margin_bot10 {
+    margin-bottom: 10px;
+}
+
+body {
+    font: 75.0% "Trebuchet MS", sans-serif;
+    margin: 10px;
+}
+
+table td {
+    font: 95.0% "Trebuchet MS", sans-serif;
+    margin: 2px;
+}
+
+label {
+    margin-top: 8px;
+    margin-left: 5px;
+    display: block;
+}
+
+input {
+    margin-left: 3px;
+    height: 1.5em;
+    width: 250px;
+    padding: 3px;
+    font-size: 1em;
+}
+
+#select {
+    margin-left: 3px;
+    height: 1.5em;
+    width: 250px;
+    padding: 3px;
+    font-size: 1em;
+}
+
+.hint {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 10px;
+    display: block;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin: .6em 0;
+}
+
+/*	div#users-contain { width: 350px; margin: 20px 0; } */
+/*
+div#users-contain { width: 900px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+*/
+
+.ui-dialog .ui-state-error {
+    padding: .3em;
+}
+
+.validateTips {
+    border: 1px solid transparent;
+    padding: 0.3em;
+}
+
+.hidden {
+    display: none;
+}
+
+.toolbar-left {
+    float: left;
+    text-align: left;
+}
+
+.toolbar-right {
+    float: right;
+    text-align: right;
+}
+
+.toolbar {
+    float: right;
+    text-align: right;
+}
+
+.footbar {
+    float: left;
+    text-align: left;
+}
+
+.footbar-left {
+    float: left;
+    text-align: left;
+}
+
+.footbar-right {
+    float: right;
+    text-align: right;
+}
+
+.demoHeaders {
+    margin-top: 2em;
+}
+
+#dialog_link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+#dialog_link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+ul#icons {
+    margin: 0;
+    padding: 0;
+}
+
+ul#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+ul#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+
+.scroll_checkboxes {
+    height: 100px;
+    padding: 5px;
+    overflow: auto;
+    border: 1px solid #ccc
+}
+
+.clear {
+    clear: both;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header {
+    margin-bottom: 8px;
+}
+
+.ui-timepicker-div dl {
+    text-align: left;
+}
+
+.ui-timepicker-div dl dt {
+    height: 25px;
+}
+
+.ui-timepicker-div dl dd {
+    margin: -25px 0 10px 65px;
+}
+
+.ui-timepicker-div td {
+    font-size: 90%;
+}
+
+#logo {
+    width: 350px;
+    height: 114px;
+    background-image: url('/images/logo.png');
+    margin: 100px auto 20px auto;
+}
+
+/* stuff for the main search page */
+div #search_box input.fade {
+    color: #666666;
+}
+
+div #search {
+    width: 585px;
+    margin: 0px auto;
+}
+
+div #search_box {
+    float: left;
+}
+
+div #search_box input {
+    width: 500px;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding: 3px;
+}
+
+div #search_button {
+    float: left;
+}
+
+div #search_button input {
+    background-color: #f5f5f5;
+    border: 1px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    text-align: middle;
+
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #545454;
+    cursor: pointer;
+    padding: 5px 8px 5px 8px;
+    width: 75px;
+}
+
+#fade {
+    display: none; /* Hidden as default */
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .80;
+    z-index: 9999;
+}
+
+#links ul {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#links ul li {
+    display: block;
+    text-align: center;
+    float: left;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+#links ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#links ul li a:hover {
+    text-decoration: underline;
+}
